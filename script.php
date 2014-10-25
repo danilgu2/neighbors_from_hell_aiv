@@ -1,3 +1,2 @@
-<?
-	result_tf2.text="ура!";
-?>
+result_tf2.text="ура!";
+
