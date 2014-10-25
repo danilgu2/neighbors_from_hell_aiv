@@ -1,0 +1,3 @@
+<?php
+gotoAndStop(2);
+?>
