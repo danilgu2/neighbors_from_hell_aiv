@@ -1,3 +1,3 @@
 <?php
-gotoAndStop(3);
+var a:String = "myMessgae";
 ?>
