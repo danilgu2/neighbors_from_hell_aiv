@@ -1,3 +1,3 @@
 <?
-echo 'http://flapps.ru';
+	result_tf2.text="ура!";
 ?>
