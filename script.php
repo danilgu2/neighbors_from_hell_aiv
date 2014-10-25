@@ -1,3 +1,3 @@
 <?php
-var a:String = "myMessgae";
+var myText.text = "myMessgae";
 ?>
