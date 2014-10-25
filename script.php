@@ -1,3 +1,3 @@
 <?php
-gotoAndStop(2);
+gotoAndStop(3);
 ?>
