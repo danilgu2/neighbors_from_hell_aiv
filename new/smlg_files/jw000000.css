@@ -1,0 +1,939 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:18:42 май 30, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:21:40 сен 6, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body
+{
+	font-family: Verdana, Arial, sans-serif;
+	margin : 0px;
+	padding: 0px;
+	 background-color : #0e3a5b;
+	/*background-color : #000000;*/ 
+	color:white;	
+	 background-image: url(bkg00000.jpg); 
+	/*background-image: url(/web/20100530011842/http://www.jowood.com/images/bkg_branding.jpg);*/ 
+	background-position: top;
+	background-repeat: repeat-y;
+	scrollbar-base-color: #155585;
+  scrollbar-3dlight-color: #3BA1F6;
+  scrollbar-arrow-color: #D6DEC7;
+  scrollbar-darkshadow-color: #3BA1F6;
+  scrollbar-face-color: #155585;
+  scrollbar-highlight-color: #155585;
+  scrollbar-shadow-color: #014478;
+  scrollbar-track-color: #014C85;
+	background-attachment: fixed;
+}
+
+#overlayblackout {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	background-color: #999999;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6; }
+
+/* TOP MENU STIL*/
+.menu
+{
+	font-size: 11px !important;
+	background-image: url(menue_bk.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	padding-left: 30px;
+	margin-top: 0px;
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+.footermenu
+{
+	font-size: 10px !important;
+	background-image: url(file://localhost/C:/Users/Данил/Desktop/мороженое/данил/JoWooD%20Entertainment%20AG%20-%20News_files/footer00.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;	
+	vertical-align:middle;
+}
+
+
+/* Formular Definitionen */
+form select,option,textarea,checkbox
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #3880af;
+	border: 0px solid #0C2738;
+	margin-left: 1px;
+	margin-right:1px;
+	margin-top: 1px;
+	margin-bottom:1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+select.Leftselect
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #3880af;
+	border: 1px solid #0C2738;
+	height: 17px;
+	width: 160px;
+	margin-left: 1px;
+	margin-right:1px;
+	margin-top: 1px;
+	margin-bottom:1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
+	display:block;
+}
+
+input.searchinput
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #3880af;	
+	border: 1px solid #0C2738;
+	height: 17px;
+	margin-top: 3px;	
+	margin-bottom:0px;
+	margin-left: 0px;
+	margin-right:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width:86px;
+	vertical-align:middle;
+	text-align:left;
+	display: compact;
+}
+input.search
+{
+	font-size: 10px !important;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #145484;	
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/btn_search.gif);
+	border: none;
+	vertical-align:middle;
+	margin-top: 3px;
+	margin-left:1px;
+	padding: 0px;
+	text-align:left;
+	height: 17px;
+	width:67px;
+	display: compact;
+}
+input
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #3880af;	
+	/* background-position: center; */
+	border: 1px solid #0C2738;
+	height: 19px;
+	margin: 1px;
+	padding: 2px;
+}
+input:focus
+{
+	background-color: #0e3a5b;
+	color: white;
+	/* background-image: url(/web/20100530011842/http://www.jowood.com/images/input_bkg.gif); */
+}
+
+/* //////////////////////////////////////////////// */
+
+/* RECHTE INFOBOX */
+.InfoBoxRight
+{
+	font-size: 10px !important;
+	background-image: url(box_righ.gif);
+	background-repeat: repeat-y;
+}
+.InfoBoxRight th
+{
+	font-size: 12px !important;
+	background-image: url(box_rigi.gif);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	text-align: left;
+	width: 179px;
+	height: 33px;
+}
+.InfoBoxRight div
+{
+	margin-left: 0px;
+	padding-left: 6px;
+	font-size: 10px !important;
+}
+.InfoBoxRight div img
+{
+	margin-left: 0px;
+	padding-left: 0px;
+	display:block;
+}
+
+.DownloadBoxRight
+{
+	font-size: 10px !important;
+	background-image: url(box_righ.gif);
+	background-repeat: repeat-y;
+}
+.DownloadBoxRight td img
+{
+	display:block;
+	text-align: left;
+}
+.DownloadBoxRight th
+{
+	font-size: 12px !important;
+	background-image: url(box_rigi.gif);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	text-align: left;
+	width: 179px;
+	height: 33px;
+}
+
+
+/* LINKE INFOBOX */
+.InfoBoxLeft
+{
+	font-size: 10px !important;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/box_left_center.gif);
+	background-repeat: repeat-y;
+}
+.InfoBoxLeft th
+{
+	font-size: 12px !important;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/box_left_top.gif);
+	background-repeat: no-repeat;	
+	margin: 0px;
+	padding-top:7px;
+	padding-left: 25px;
+	padding-right: 0px;
+	padding-bottom: 0px;	
+	text-align: left;	
+}
+.linkPic
+{
+	border: 1px solid #113a58;
+}
+
+.smallContentTable td
+{
+	margin-left: 0px;
+	padding-left: 5px;
+	font-size: 10px !important;
+}
+
+
+/* ProduktInfo Box*/
+.PIBOX
+{
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/pi_box_verl.jpg);
+	background-repeat: repeat-y;
+	width: 622px;
+}
+.PIBOX td
+{
+	font-size: 11px !important;
+}
+.PIBOX th
+{
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/pi_box_top.jpg);
+	background-repeat: no-repeat;	
+	font-size: 12px !important;
+	padding-left: 33px;
+	margin-left: 0px;
+	font-weight: bold;
+	text-align: left;
+	height: 27px;
+}
+
+.piInfoBox ul
+{
+	margin-left: 16px;
+	padding-left: 0px;
+	margin-top: 3px;
+	padding-top: 0px;
+}
+.piInfoBox li
+{
+	list-style-type: circle;	
+	list-style-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/bullet.gif);
+	margin-bottom: 4px;
+}
+
+.piInfoBox p
+{
+	text-align: left;
+}
+
+
+.PIBOX div
+{
+	padding-left: 6px;
+	margin-left: 0px;
+	padding-right: 12px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	padding-top: 0px;
+}
+
+.screenThumb
+{
+	border: 1px solid #00d1ff;
+}
+
+.PIBOX p
+{
+	text-align: left;
+}
+
+/* Mittlere GamesBox*/
+.GAMESBOX
+{
+	width: 622px;
+	font-size: 11px !important;
+	 background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/pi_box_verl.jpg);
+	 background-repeat: repeat-y;
+}
+.GAMESBOX th
+{
+	padding-left: 33px;
+	margin-left: 0px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px !important;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/pi_box_top.jpg);
+	background-repeat: no-repeat;	
+	height: 27px;
+}
+.GAMESBOX td
+{
+	text-align: left;
+	vertical-align: top;
+	font-size: 11px !important;
+}
+.GAMESBOX div
+{
+	padding-left: 10px;
+	margin-left: 0px;
+	padding-right: 12px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	padding-top: 0px;
+}
+
+.GAMESBOX div #picMenu
+{
+	width: 119px;
+	display:block;
+}
+
+
+.jwtable
+{
+	width: 561px;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/jw_games_listen_bkg.jpg);
+	background-repeat: repeat-y;
+	vertical-align: middle;	
+	padding-left: 0px;
+	margin-left: 25px;
+}
+
+td.jwgfx
+{
+	width:36px;
+	height: 25px;
+}
+
+td.jwgame
+{
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+
+td.genre
+{
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 10px;
+	margin-right: 0px;
+}
+
+
+.jwtableShort
+{
+	width: 416px;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/jw_games_listen_bkg2.jpg);
+	background-repeat: repeat-y;
+	vertical-align: middle;	
+}
+
+.jwtableShort a
+{
+	text-decoration: none;
+}
+
+
+td.jwgfxShort
+{
+	width:36px;
+	height: 25px;
+}
+
+td.jwgameShort
+{
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+
+td.genreShort
+{
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 10px;
+	margin-right: 0px;
+}
+
+/* NEWS BOX in der Mitte*/
+.ContentBox
+{
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/contentbox_01_bkg.gif);
+	background-repeat: repeat-y;
+	width: 444px;
+}
+
+.ContentBox td
+{
+	font-size: 11px !important;
+}
+
+.ContentBox th
+{
+	font-size: 12px !important;
+	padding-left: 38px;
+	margin-left: 0px;
+	padding-bottom:4px;
+	margin-bottom: 0px;
+	text-align: left;
+	vertical-align: middle;
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/contentbox_01_top.gif);
+	background-repeat: no-repeat;
+	width: 444px;
+	height:	33px;
+}
+
+.ContentBox span
+{
+	font-size: 8px !important;
+	padding-left: 0px;
+	margin-left: 15px;	
+	vertical-align: middle;
+	text-align: right;
+	/* overflow: hidden; */
+}
+.ContentBox ul
+{
+	margin-left: 0px;
+	padding-left: 20px;
+	margin-top: 3px;
+	padding-top: 0px;
+}
+.ContentBox li
+{
+	list-style-type: circle;	
+	list-style-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/bullet.gif);
+	margin-bottom: 4px;
+}
+
+.newsHeader
+{
+	font-size: 12px !important;
+	padding-left: 38px;
+	padding-top: 3px;
+	margin-left: 0px;
+	padding-bottom:4px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: left;
+	/*vertical-align: middle;*/
+	background-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/contentbox_head_mid.jpg);
+	background-repeat: no-repeat;
+	width: 444px;
+	font-weight: bold;
+}
+
+
+.contenttext
+{
+	font-size: 11px !important;
+	margin: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: left;
+}
+
+.contenttext p
+{
+	text-align: left;
+}
+
+.contentimg
+{
+	margin: 0px;
+	padding-left: 3px;
+	padding-right: 0px;
+	width:439px;
+	text-align: center;	
+}
+
+.plattformmenu
+{
+	padding-left: 12px;
+	font-weight: bold;
+}
+
+.plattformmenu ul
+{
+	margin-left: 16px;
+	padding-left: 0px;
+	margin-top: 6px;
+	padding-top: 0px;
+}
+.plattformmenu li
+{
+	list-style-type: circle;	
+	list-style-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/bullet.gif);
+	margin-bottom: 2px;
+}
+
+h1
+{
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px !important;
+	margin: 0px;
+	padding-bottom:4px;
+}
+h2
+{
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px !important;
+	margin: 0px;
+	padding-bottom:4px;
+}
+
+.jwtablehighlights
+{
+	margin:0px;
+	padding:2px;
+	border:none;
+	
+}
+.jwtablehighlights td
+{
+	vertical-align: top;
+	text-align: left;	
+}
+.jwtablehighlights span
+{
+	vertical-align: top;
+	text-align: left;	
+}
+
+.TAB
+{
+	font-size: 9px;
+	padding-bottom:3px;
+	padding-top:0px;
+	padding-left:3px;
+	padding-right:3px;
+	margin:0px;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* LINK COLORS */
+/* MENU */
+a.menulink:link, a.menulink:active, a.menulink:visited
+{
+	font-size: 11px !important;
+	color: White;
+	background-color:transparent;	
+	text-decoration: none;
+}
+ 
+a.menulink:hover
+{
+	font-size: 11px !important;
+	color: YELLOW;
+	background-color:transparent;
+	text-decoration: none;
+}
+
+a.footerlink:link, a.footerlink:active, a.footerlink:visited
+{
+	font-size: 10px !important;
+	color: White;
+	background-color:transparent;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+ 
+a.footerlink:hover
+{
+	font-size: 10px !important;
+	color: YELLOW;
+	background-color:transparent;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+/* Spezielle Href Stile*/
+A.asmall:link, A.asmall:visited, A.asmall:active
+{	
+	font-size: 13px;
+	color : #FFFECE;
+	background-color:transparent;	
+}
+A.asmall:hover
+{
+	font-size: 13px;
+	color: YELLOW;
+	background-color:transparent;
+}
+
+a.boxlink:link, a.boxlink:visited, a.boxlink:active
+{	
+	font-size: 10px;
+	color: White;
+	background-color:transparent;
+	display: block;
+	margin-bottom: 3px;
+	padding-top:0px;
+	padding-left: 4px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+}
+a.boxlink:hover
+{
+	font-size: 10px;
+	color: YELLOW;
+	background-color:transparent;
+}
+a.newslink:link, a.newslink:visited, a.newslink:active
+{	
+	font-size: 9px;
+	color: White;
+	background-color:transparent;
+	margin-bottom: 3px;
+	padding-top:0px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 0px;	
+	display: block;
+	text-decoration:none;
+}
+a.newslink:hover
+{
+	font-size: 9px;
+	color: YELLOW;
+	background-color:transparent;
+	text-decoration:none;
+	display: block;
+}
+
+a.TABmenu:link,a.TABmenu:active,a.TABmenu:visited
+{
+	font-size: 9px;
+	color: White;
+	background-color:transparent;
+}
+a.TABmenu:hover
+{
+	font-size: 9px;
+	color: Yellow;
+	background-color:transparent;
+}
+
+a.GamesLink:link,a.GamesLink:active,a.GamesLink:visited
+{
+	font-size: 11px !important;
+	color: White;
+	background-color:transparent;
+	padding-left:3px;
+	margin-left:0px;
+}
+a.GamesLink:hover
+{
+	font-size: 11px !important;
+	color: Yellow;
+	background-color:transparent;
+}
+
+a.jwListLink:link,a.jwListLink:active,a.jwListLink:visited
+{
+	font-size: 11px !important;
+	color: White;
+	background-color:transparent;
+	text-decoration: none;
+}
+
+a.jwListLink:hover
+{
+	font-size: 11px !important;
+	color: Yellow;
+	background-color:transparent;
+	text-decoration: none;
+}
+
+div.contenttext a:visited,a:link,a:active
+{
+	color: White;
+	background-color:transparent;	
+}
+
+div.contenttext a:hover
+{
+	color: YELLOW;
+	background-color:transparent;
+}
+
+a.contentLink:link,a.contentLink:active,a.contentLink:visited
+{
+	font-size: 11px;
+	color: White;
+	background-color:transparent;	
+}
+a.contentLink:hover
+{
+	font-size: 11px;
+	color: Yellow;
+	background-color:transparent;
+}
+
+.plattformmenu a:link,a:active,a:visited
+{
+	font-size: 11px;
+	color: White;
+	background-color:transparent;
+}
+.plattformmenu a:hover
+{
+	font-size: 11px;
+	color: Yellow;
+	background-color:transparent;
+}
+
+.tooltip
+{
+	margin-left: 0px;
+	padding-left: 6px;
+	font-size: 10px !important;
+}
+
+.videoBox
+{
+	width: 618px;
+	height:156px;
+	display: block;
+	font-size: 11px!important;
+	text-align: center;
+	vertical-align:middle;
+	/* border: 1px solid BLACK; */
+	margin:0px;
+	padding: 0px;
+}
+
+.PrintEmailIcons
+{
+	padding-right: 30px;
+	margin-right: 0px;
+}
+
+.regHeadline
+{
+	font-size: 12px!important;
+	font-weight: bold;
+	color:white;
+	background-color: 0F557F;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	width: 100%;
+}
+
+.databox
+{
+	font-size: 11px!important;
+	color: White;
+	padding-left: 16px;
+	margin-left: 0px;
+	padding-right: 12px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	padding-top: 0px;	
+}
+
+.databox table td
+{
+	font-size: 11px!important;
+	color: White;
+	padding:2px;
+	margin:0px;
+}
+
+.databox a
+{
+	font-size: 11px!important;
+	color: White;
+	background-color:transparent;	
+}
+
+.databox a:hover
+{
+	font-size:  11px!important;
+	color: Yellow;
+	background-color:transparent;
+}
+
+.databox ul
+{
+	font-size: 11px!important;
+	color: White;
+	padding-left: 11px;
+	margin-left: 0px;
+	padding-right: 12px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	padding-top: 0px;
+}
+
+.databox li
+{
+	font-size: 11px!important;
+	color: White;
+	list-style-type: circle;	
+	list-style-image: url(http://web.archive.org/web/20100530011842/http://www.jowood.com/images/bullet.gif);
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+}
+
+.faqMenu
+{
+	font-weight:bold;
+	margin-bottom: 2px;
+	padding-bottom:0px;
+	
+}
+
+.RubrikBox
+{
+	font-weight: bold;
+	margin-bottom:3px;
+	padding-bottom:3px;
+	margin-left:0px;
+	margin-right:10px;
+	border: 1px solid #0E3A5B;
+	background-color:	#0F557F;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.RubrikBox a
+{
+	text-decoration:none;
+	color:white;	
+}
+
+.RubrikBox a:visited
+{
+	text-decoration:none;
+	color:white;
+}
+
+.RubrikBox a:hover
+{
+	text-decoration:none;
+	color:yellow;
+}
+
+.RubrikHead
+{
+	font-size:14px;
+	font-weight: bolder;
+}
+
+.ReleaseBox
+{
+	padding-top: 4px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+	padding-right: 4px;
+	margin:0px;
+}
+
+.ReleaseBox  td
+{	
+	border: 3px;
+	background-color: #0F557F;
+	
+}
+
+.ReleaseBox  td#ReleasboxBlank
+{
+	background-color: transparent;
+}
+
+.errorpage
+{
+		font-size: 11px !important;
+	
+}
+
